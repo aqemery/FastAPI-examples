@@ -1,0 +1,376 @@
+{
+  "books":[
+  {
+    "title": "Never Let Me Go",
+    "author": "Kazuo Ishiguro",
+    "score": 3.83,
+    "ratings": 556289
+  },
+  {
+    "title": "American Gods",
+    "author": "Neil Gaiman",
+    "score": 4.1,
+    "ratings": 833631
+  },
+  {
+    "title": "Handcuff Secrets",
+    "author": "Harry Houdini",
+    "score": 3.9,
+    "ratings": 10
+  },
+  {
+    "title": "Clap When You Land",
+    "author": "Elizabeth Acevedo",
+    "score": 4.29,
+    "ratings": 70363
+  },
+  {
+    "title": "Can Exercise Protect Millions From The Dangers Of COVID-19?",
+    "author": "Ansuman Datta",
+    "score": 4.25,
+    "ratings": 4
+  },
+  {
+    "title": "A Time to Kill",
+    "author": "John Grisham",
+    "score": 4.09,
+    "ratings": 757792
+  },
+  {
+    "title": "Revelations of a Spirit Medium: Spiritualistic Mysteries Exposed",
+    "author": "Anonymous",
+    "score": 4.17,
+    "ratings": 6
+  },
+  {
+    "title": "Revelations of a Spirit Medium",
+    "author": "Anonymous",
+    "score": 4.17,
+    "ratings": 6
+  },
+  {
+    "title": "Mexican Gothic",
+    "author": "Silvia Moreno-Garcia",
+    "score": 3.69,
+    "ratings": 204080
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "score": 3.89,
+    "ratings": 2442818
+  },
+  {
+    "title": "Divergent",
+    "author": "Veronica Roth",
+    "score": 4.17,
+    "ratings": 3333315
+  },
+  {
+    "title": "An American Marriage",
+    "author": "Tayari Jones",
+    "score": 3.95,
+    "ratings": 310347
+  },
+  {
+    "title": "Crazy Rich Asians",
+    "author": "Kevin Kwan",
+    "score": 3.87,
+    "ratings": 402623
+  },
+  {
+    "title": "All Your Perfects",
+    "author": "Colleen Hoover",
+    "score": 4.31,
+    "ratings": 111638
+  },
+  {
+    "title": "A Place for Us",
+    "author": "Fatima Farheen Mirza",
+    "score": 4.16,
+    "ratings": 49135
+  },
+  {
+    "title": "The Poet X",
+    "author": "Elizabeth Acevedo",
+    "score": 4.37,
+    "ratings": 97227
+  },
+  {
+    "title": "The Gravity of Us",
+    "author": "Phil Stamper",
+    "score": 3.65,
+    "ratings": 15218
+  },
+  {
+    "title": "The Great Alone",
+    "author": "Kristin Hannah",
+    "score": 4.36,
+    "ratings": 501879
+  },
+  {
+    "title": "The Pillars of the Earth",
+    "author": "Ken Follett",
+    "score": 4.32,
+    "ratings": 696818
+  },
+  {
+    "title": "Unspeakable Things",
+    "author": "Jess Lourey",
+    "score": 3.84,
+    "ratings": 61134
+  },
+  {
+    "title": "Red White & Royal Blue",
+    "author": "Casey McQuiston",
+    "score": 4.21,
+    "ratings": 429641
+  },
+  {
+    "title": "Station Eleven",
+    "author": "Emily St. John Mandel",
+    "score": 4.05,
+    "ratings": 380084
+  },
+  {
+    "title": "Dark Matter",
+    "author": "Blake Crouch",
+    "score": 4.1,
+    "ratings": 324154
+  },
+  {
+    "title": "Recursion",
+    "author": "Blake Crouch",
+    "score": 4.14,
+    "ratings": 156467
+  },
+  {
+    "title": "Still Life",
+    "author": "Louise Penny",
+    "score": 3.89,
+    "ratings": 190277
+  },
+  {
+    "title": "The Starless Sea",
+    "author": "Erin Morgenstern",
+    "score": 3.85,
+    "ratings": 141560
+  },
+  {
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "score": 4.03,
+    "ratings": 801828
+  },
+  {
+    "title": "Along Came a Spider",
+    "author": "4.11",
+    "score": 428377,
+    "ratings": 0
+  },
+  {
+    "title": "Tidelands",
+    "author": "Philippa Gregory",
+    "score": 3.8,
+    "ratings": 20157
+  },
+  {
+    "title": "This Will Be My Undoing: Living at the Intersection of Black Female and Feminist in (White) America",
+    "author": "Morgan Jerkins",
+    "score": 4.02,
+    "ratings": 6059
+  },
+  {
+    "title": "The Tea Girl of Hummingbird Lane",
+    "author": "Lisa See",
+    "score": 4.25,
+    "ratings": 82222
+  },
+  {
+    "title": "Miracle Creek",
+    "author": "Angie Kim",
+    "score": 3.88,
+    "ratings": 58083
+  },
+  {
+    "title": "The Other Boleyn Girl",
+    "author": "Philippa Gregory",
+    "score": 4.07,
+    "ratings": 477417
+  },
+  {
+    "title": "Pretty Girls",
+    "author": "Karin Slaughter",
+    "score": 4.01,
+    "ratings": 221220
+  },
+  {
+    "title": "You Had Me at Hola",
+    "author": "Alexis Daria",
+    "score": 3.72,
+    "ratings": 24842
+  },
+  {
+    "title": "A Cold Trail",
+    "author": "Robert Dugoni",
+    "score": 4.31,
+    "ratings": 21292
+  },
+  {
+    "title": "The Whisper Man",
+    "author": "Alex North",
+    "score": 4.05,
+    "ratings": 108378
+  },
+  {
+    "title": "The Shadows",
+    "author": "Alex North",
+    "score": 3.74,
+    "ratings": 36786
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "score": 4.27,
+    "ratings": 3469920
+  },
+  {
+    "title": "Joy of Cooking",
+    "author": "Irma S. Rombauer",
+    "score": 4.1,
+    "ratings": 169484
+  },
+  {
+    "title": "Her Body and Other Parties: Stories",
+    "author": "Carmen Maria Machado",
+    "score": 3.91,
+    "ratings": 53557
+  },
+  {
+    "title": "The Once and Future Witches",
+    "author": "Alix E. Harrow",
+    "score": 4.07,
+    "ratings": 41563
+  },
+  {
+    "title": "The Accidental Tourist",
+    "author": "Anne Tyler",
+    "score": 3.9,
+    "ratings": 102809
+  },
+  {
+    "title": "In Five Years",
+    "author": "Rebecca Serle",
+    "score": 3.83,
+    "ratings": 231188
+  },
+  {
+    "title": "The Particular Sadness of Lemon Cake",
+    "author": "Aimee Bender",
+    "score": 3.24,
+    "ratings": 64183
+  },
+  {
+    "title": "Mirage",
+    "author": "Somaiya Daud",
+    "score": 3.72,
+    "ratings": 11016
+  },
+  {
+    "title": "The Lincoln Lawyer",
+    "author": "Michael Connelly",
+    "score": 4.17,
+    "ratings": 213454
+  },
+  {
+    "title": "Girl Wash Your Face: Stop Believing the Lies about Who You Are So You Can Become Who You Were Meant to Be",
+    "author": "Rachel Hollis",
+    "score": 3.63,
+    "ratings": 215693
+  },
+  {
+    "title": "A Gathering of Shadows",
+    "author": "V.E. Schwab",
+    "score": 4.24,
+    "ratings": 141084
+  },
+  {
+    "title": "Then She Was Gone",
+    "author": "Lisa Jewell",
+    "score": 4.05,
+    "ratings": 332551
+  },
+  {
+    "title": "The Gilded Wolves",
+    "author": "Roshani Chokshi",
+    "score": 3.74,
+    "ratings": 30602
+  },
+  {
+    "title": "The Tattooist of Auschwitz",
+    "author": "Heather Morris",
+    "score": 4.26,
+    "ratings": 642409
+  },
+  {
+    "title": "Whisper Network",
+    "author": "Chandler Baker",
+    "score": 3.62,
+    "ratings": 56757
+  },
+  {
+    "title": "Confessions on the 7:45",
+    "author": "Lisa Unger",
+    "score": 3.92,
+    "ratings": 31327
+  },
+  {
+    "title": "I Was Anastasia",
+    "author": "Ariel Lawhon",
+    "score": 3.72,
+    "ratings": 19948
+  },
+  {
+    "title": "The Summer that Melted Everything",
+    "author": "Tiffany McDaniel",
+    "score": 3.97,
+    "ratings": 8246
+  },
+  {
+    "title": "The Paper Daughters of Chinatown",
+    "author": "Heather B. Moore",
+    "score": 4.15,
+    "ratings": 4066
+  },
+  {
+    "title": "The House in the Cerulean Sea",
+    "author": "T.J. Klune",
+    "score": 4.47,
+    "ratings": 215308
+  },
+  {
+    "title": "Verity",
+    "author": "Colleen Hoover",
+    "score": 4.39,
+    "ratings": 436897
+  },
+  {
+    "title": "One to Watch",
+    "author": "Kate Stayman-London",
+    "score": 3.93,
+    "ratings": 72039
+  },
+  {
+    "title": "A Rogue of One's Own",
+    "author": "Evie Dunmore",
+    "score": 4.03,
+    "ratings": 22577
+  },
+  {
+    "title": "Axiom's End",
+    "author": "Lindsay Ellis",
+    "score": 3.77,
+    "ratings": 16695
+  }
+ ]
+}

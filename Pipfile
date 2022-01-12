@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pymongo = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+strawberry-graphql = {extras = ["debug-server"], version = "*"}
+packages = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
