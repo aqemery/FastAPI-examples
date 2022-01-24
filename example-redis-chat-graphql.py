@@ -7,19 +7,21 @@ import strawberry
 from strawberry.asgi import GraphQL
 from strawberry.types import Info
 from strawberry.fastapi import GraphQLRouter
-
+import json
 
 app = FastAPI()
 r = Redis()
+p = r.pubsub()
 sockets = []
+p.subscribe('channel')
 
 @app.on_event("startup")
 @repeat_every(seconds=0.01)
 async def read():
-    while msg := r.lpop('channel'):
+    while msg := p.get_message():
         print('got', msg)
         for s in sockets:
-            await s.send_text(msg.decode())
+            await s.send_text(msg['data'].decode())
 
 html = """
 <!DOCTYPE html>
@@ -77,7 +79,7 @@ async def websocket_endpoint(websocket: WebSocket):
 
 def send_message(text):
     print('sending', text)
-    r.rpush('channel', text)
+    r.publish('channel', text)
 
 
 @strawberry.type
@@ -89,10 +91,18 @@ class Query:
 @strawberry.type
 class Subscription:
     @strawberry.subscription
-    async def count(self, target: int = 100) -> int:
-        for i in range(target):
-            yield i
+    async def listen(self) -> str:
+        p = r.pubsub()
+        p.subscribe('channel')
+        while True:
+            while msg := p.get_message():
+                data = msg["data"]
+                if isinstance(data, int):
+                    yield str(data)
+                else:
+                    yield msg["data"].decode()
             await asyncio.sleep(0.5)
+
 
 
 @strawberry.type

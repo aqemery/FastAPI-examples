@@ -11,15 +11,17 @@ from strawberry.fastapi import GraphQLRouter
 
 app = FastAPI()
 r = Redis()
+p = r.pubsub()
 sockets = []
+p.subscribe('channel')
 
 @app.on_event("startup")
 @repeat_every(seconds=0.01)
 async def read():
-    while msg := r.lpop('channel'):
+    while msg := p.get_message():
         print('got', msg)
         for s in sockets:
-            await s.send_text(msg.decode())
+            await s.send_text(msg['data'].decode())
 
 html = """
 <!DOCTYPE html>
@@ -77,7 +79,7 @@ async def websocket_endpoint(websocket: WebSocket):
 
 def send_message(text):
     print('sending', text)
-    r.rpush('channel', text)
+    r.publish('channel', text)
 
 
 @strawberry.type
