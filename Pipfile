@@ -7,7 +7,7 @@ name = "pypi"
 pymongo = "*"
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
-strawberry-graphql = {extras = ["debug-server"], version = "*"}
+strawberry-graphql = {extras = ["fastapi"], version = "*"}
 packages = "*"
 redis = "*"
 fastapi-utils = "*"

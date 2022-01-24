@@ -2,6 +2,12 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.responses import HTMLResponse
 from redis import Redis 
 from fastapi_utils.tasks import repeat_every
+import asyncio
+import strawberry
+from strawberry.asgi import GraphQL
+from strawberry.types import Info
+from strawberry.fastapi import GraphQLRouter
+
 
 app = FastAPI()
 r = Redis()
@@ -72,3 +78,31 @@ async def websocket_endpoint(websocket: WebSocket):
 def send_message(text):
     print('sending', text)
     r.rpush('channel', text)
+
+
+@strawberry.type
+class Query:
+    @strawberry.field
+    def hello() -> str:
+        return "world"
+
+@strawberry.type
+class Subscription:
+    @strawberry.subscription
+    async def count(self, target: int = 100) -> int:
+        for i in range(target):
+            yield i
+            await asyncio.sleep(0.5)
+
+
+@strawberry.type
+class Query:
+    @strawberry.field
+    def hello(self) -> str:
+        return "Hello World"
+
+
+
+schema = strawberry.Schema(query=Query, subscription=Subscription)
+graphql_app = GraphQLRouter(schema)
+app.include_router(graphql_app, prefix="/graphql")
