@@ -9,6 +9,8 @@ fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 strawberry-graphql = {extras = ["debug-server"], version = "*"}
 packages = "*"
+redis = "*"
+fastapi-utils = "*"
 
 [dev-packages]
 

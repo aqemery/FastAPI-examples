@@ -11,6 +11,7 @@ slides from the presentation are included as a file `slides.pdf`
 The required packages are included with in a pipfile. You can use pipenv to install them. 
 
 `pipenv install packages`
+`pipenv shell`
 
 This repo also makes use of a `justfile` you can get info on how to install just here: [GitHub - casey/just: 🤖 Just a command runner](https://github.com/casey/just)
 
