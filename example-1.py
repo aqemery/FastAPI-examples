@@ -24,4 +24,4 @@ def create_item(body: Item):
 
 @app.get("/items/{id}")
 def get_item(id: int):
-    return Item(items[id])
+    return items[id]
